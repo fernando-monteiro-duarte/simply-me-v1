@@ -32,10 +32,30 @@
     
 
 <body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Me</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav navbar-rigth">
+                    <li><a href="#"> WHO </a></li>
+                    <li><a href="#"> WHAT </a></li>
+                    <li><a href="#"> WHERE </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <div class="container-fluid bg-1 text-center">
         <h3 class="margin">Who am I?</h3>
-      <img src="bird.jpg" class="img-circle" alt="Bird">
+      <img src="bird.jpg" class="img-responsive img-circle" style="display: inline;" 
+      alt="Bird">
       <h3>I'm an adventurer</h3>
     </div>
     
@@ -60,7 +80,7 @@
                 Sed accumsan, metus at rhoncus finibus, risus elit imperdiet lacus, 
                 id tristique neque odio ac felis.
               </p>
-          <img src="birds1.jpg" alt="Image">
+          <img src="birds1.jpg" class="img-responsive" style="width: 100%;" alt="Image">
         </div>
         <div class="col-sm-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -68,7 +88,7 @@
                 Sed accumsan, metus at rhoncus finibus, risus elit imperdiet lacus, 
                 id tristique neque odio ac felis.
               </p>
-          <img src="birds2.jpg" alt="Image">
+          <img src="birds2.jpg" class="img-responsive" style="width: 100%;" alt="Image">
         </div>
         <div class="col-sm-4">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -76,7 +96,7 @@
                 Sed accumsan, metus at rhoncus finibus, risus elit imperdiet lacus, 
                 id tristique neque odio ac felis.
               </p>
-          <img src="birds3.jpg" alt="Image">
+          <img src="birds3.jpg" class="img-responsive" style="width: 100%;" alt="Image">
         </div>
       </div>
     </div>
